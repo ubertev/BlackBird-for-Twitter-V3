@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edwardst4.blackbirdv3" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/twitterbox"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimelineActivity"
+            android:label="@string/app_name"
+            />
+        <activity android:name=".NotificationView" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c34bc1a9e43b794600a3bbdaf8fa3979225a1ce3" />
+    </application>
+    <supports-screens android:xlargeScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

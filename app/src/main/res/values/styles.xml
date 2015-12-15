@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textAppearance">@style/textAppearance.</item>
+        <item name="actionBarStyle">@style/myActionBar</item>
+    </style>
+
+    <style name="textAppearance." parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <!-- customize the action bar -->
+    <style name="myActionBar" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="background">@drawable/tw__login_btn</item>
+        <item name="displayOptions">showTitle</item>
+    </style>
+
+    <style name="textAppearance..auth" parent="textAppearance.">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
